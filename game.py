@@ -29,6 +29,7 @@ for i in range(0, times):
     case "*":
         res_verdadero = number_1 * number_2
     case "/":
+        number_2 = 1
         res_verdadero = number_1 / number_2
   result = int(result)
   if result == res_verdadero:
